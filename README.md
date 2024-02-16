@@ -55,7 +55,8 @@ FIGURE-02
 ![image](https://user-images.githubusercontent.com/36288975/163530437-87a0afbd-b3c9-44ad-b907-5de63486fb9d.png)
 
 
-![Screenshot 2024-02-16 155535](https://github.com/RAGULRAAJAN/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/147473144/5f65c322-6559-4f2e-a7ba-a34996de59e1)
+![Screenshot 2024-02-16 160716](https://github.com/RAGULRAAJAN/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/147473144/67e7fb6a-bdb2-476c-a2e8-2a87838e5479)
+
 
 
 ## PROGRAM 
@@ -87,8 +88,6 @@ void loop()
   
 }
 ```
-
-
 
 ## OUTPUT OF SIMULATION :
 ### IN ON CONDITION:
