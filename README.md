@@ -59,7 +59,7 @@ FIGURE-02
 
 
 ## PROGRAM 
- 
+``` 
  int led=3;
 int pushbutton=4;
 
@@ -86,7 +86,7 @@ void loop()
   }
   
 }
-
+```
 
 
 
