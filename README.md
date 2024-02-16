@@ -55,31 +55,45 @@ FIGURE-02
 ![image](https://user-images.githubusercontent.com/36288975/163530437-87a0afbd-b3c9-44ad-b907-5de63486fb9d.png)
 
 
-
-FIGURE -03
-
-
+![Screenshot 2024-02-16 155535](https://github.com/RAGULRAAJAN/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/147473144/5f65c322-6559-4f2e-a7ba-a34996de59e1)
 
 
 ## PROGRAM 
  
- 
+ int led=3;
+int pushbutton=4;
 
+void setup()
+{
+  pinMode(led, OUTPUT);
+  pinMode(pushbutton, INPUT);
+}
+void loop()
+{
+  int pb;
+  pb=digitalRead(pushbutton);
+  if(pb==HIGH)
+  {
+    digitalWrite(led,HIGH);
+    delay(5000);
+    digitalWrite(led,LOW);
+    delay(5000);
+  }
+  else
+  {
+    digitalWrite(led,LOW);
+    delay(500);
+  }
+  
+}
 
-
-
-
-
-
-
-
- 
- 
- 
 
 
 
 ## OUTPUT OF SIMULATION :
+### IN ON CONDITION:
+![Screenshot 2024-02-16 154926](https://github.com/RAGULRAAJAN/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/147473144/ddaab36f-cb39-49dd-aa6a-4ac5016ef6de)
+### IN OFF CONDITION:
+![Screenshot 2024-02-16 154945](https://github.com/RAGULRAAJAN/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/147473144/4f821c16-14d6-45b1-9e53-c0029a550a7e)
 
-[My image](username.github.com/repository/img/image.jpg)
 
